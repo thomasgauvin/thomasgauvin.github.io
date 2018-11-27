@@ -1,0 +1,84 @@
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FDFDFD;
+}
+
+.title{
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    font-size: 6.65em;
+    color: #FDFDFD;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.title-font{
+    display: inline-block;
+    font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+}
+
+p{  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+body{
+    background-color: red;
+}
+
+#visual-half{
+    /* background-color: rgb(13, 13, 13); */
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#visual-container--static{
+    padding: 35vh 8em;
+}
+
+#visual-container--dynamic{
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+
+#textual-half{
+    background-color: #FDFDFD;
+    width:50%;
+    float: right;
+}
+
+#text-container{
+    padding: 25em 8em 42em 8em;
+}
+
+.main-text{
+    font-size: 2em;
+}
+
+.text-divider{
+    padding: 14em;
+}
+
+.decorator{
+    width:6em;
+    position: absolute;
+}
+
+#blue-zigzag-container{
+    perspective: 40px;
+}
+
+#blue-zigzag{
+    transition: transform 0.5s;
+}
