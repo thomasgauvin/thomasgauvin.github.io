@@ -1,0 +1,151 @@
+@import url("../assets/fonts/manrope/web/index.css");
+
+html{
+    height: 100%;
+}
+
+body {
+    line-height: 1.65;
+    margin: 0;
+    font-family: 'Manrope', Helvetica, sans-serif;
+    font-weight: 400;
+    color: #313131;
+
+    padding-bottom: 10em;
+    min-height: calc(100% - 10em);
+    position: relative;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+.title-name,
+.title-bonjour {
+    color: #2B2B2B;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+h2.blog{
+    padding: 0;
+    opacity: 0.3;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+li{
+    padding: 0.3em 0;
+}
+
+.text{
+    margin: 1em 0 2em 0;
+}
+
+a {
+    color: #357a38;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 42em;
+}
+
+.title-card{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 2em 0em;
+}
+
+.title-portrait{
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+    padding: 1em 1em;
+}
+
+.title-text{
+    padding: 2em 0em 2em 2em;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-text{
+        font-size: 1.2em;
+        padding-left: 0;
+    }
+
+    .title-card{
+        flex-direction: column;
+    }
+}
+
+.title-bonjour,
+.title-name{
+    white-space: nowrap;
+}
+
+.title-name{
+    font-weight: 200;
+}
+
+.title-links{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 1em;
+}
+
+.title-links--icon{
+    padding: 0 0.5em 0 0;
+}
+
+.title-links--icon:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.projects--container{
+    background-color: green;
+    height: 24em;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    overflow-x: scroll;
+}
+
+.project-card{
+    height:90%;
+    width: 30%;
+    background-color: white;
+    border: black 1px solid;
+    flex: 0 0 auto;
+}
+
+.footer-topographicalmap{
+    height: 10em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../assets/topographic/Topographic-Map-Patterns3crop.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding: 1em;
+}
