@@ -11,8 +11,7 @@ body {
     font-weight: 400;
     color: #313131;
 
-    padding-bottom: 10em;
-    min-height: calc(100% - 10em);
+    padding-bottom: 2em;
     position: relative;
 }
 
@@ -21,13 +20,21 @@ h2 {
     padding-top: 1em;
 }
 
+header{
+    padding-bottom: 5em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 h1,
 h2,
 .title-name,
 .title-bonjour {
     color: #2B2B2B;
-    font-size: 1.8em;
-    font-weight: 800;
+    font-weight: 300;
+    font-size: 1.7em;
 }
 
 h2.blog{
@@ -48,12 +55,22 @@ li{
 }
 
 a {
-    color: #357a38;
+    color: #2B2B2B;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 a:hover{
-    text-decoration: underline;
+    color: white;
+    box-shadow: inset 0 -33px 0 0 #147d5d;
+}
+
+img{
+    transition: all .2s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.02)
 }
 
 .container{
@@ -64,16 +81,32 @@ a:hover{
 
 .title-card{
     display: flex;
-    align-items: center;
-    position: relative;
-    margin: 2em 0em;
+    margin: 1.2em 0em;
+}
+
+section{
+    margin-bottom: 10em;
+}
+
+.section-title{
+    letter-spacing: 1px;
+    color: #357a38;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-content{
+    padding: 1em 0em 1em 1em;
 }
 
 .title-portrait{
-    width: 150px;
-    height: auto;
-    border-radius: 100px;
-    padding: 1em 1em;
+    margin-right: 1em;
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    border-color: #dddddd;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .title-text{
@@ -86,10 +119,6 @@ a:hover{
         font-size: 1.2em;
         padding-left: 0;
     }
-
-    .title-card{
-        flex-direction: column;
-    }
 }
 
 .title-bonjour,
@@ -101,20 +130,71 @@ a:hover{
     font-weight: 200;
 }
 
-.title-links{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-top: 1em;
+.title-links-container{
+    text-align: center;
 }
 
+
 .title-links--icon{
-    padding: 0 0.5em 0 0;
+    padding: 0 0.3em 0 0.3em;
 }
 
 .title-links--icon:hover{
     text-decoration: none;
-    opacity: 0.6;
+}
+
+.experience-component{
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.experience-title{
+    font-weight: 700;
+}
+
+.experience-date{
+    padding-top:0.5em;
+    font-size: 0.85em;
+}
+
+.experience-image{
+    width: 60px;
+    height: auto;
+}
+
+.experience-content{
+    margin-left: 2em;
+}
+
+.project-title{
+    font-weight: 700;
+}
+
+.project-date{
+    padding-top: 1em;
+    font-size: 0.85em;
+}
+
+.project-component{
+    margin-bottom: 5em;
+}
+
+.project-image-horizontal{
+    width: 118%;
+}
+
+.project-image-vertical{
+    width: 56%;
+}
+
+.project-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-vertical{
+    flex-direction: column;
 }
 
 .projects--container{
@@ -149,3 +229,22 @@ a:hover{
     text-align: center;
     padding: 1em;
 }
+
+.wave:hover {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
