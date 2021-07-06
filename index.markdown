@@ -26,7 +26,7 @@ layout: default_naked
             </div>
             <br />
             <div class="cta-button">
-                <a id="button-link" href="https://www.linkedin.com/in/thomas-gauvin/?originalSubdomain=ca">Get in touch!</a>
+                <a id="button-link" href="https://www.linkedin.com/in/thomas-gauvin/?originalSubdomain=ca" target="_blank">Get in touch!</a>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.blaisetransit.com/">
+                                <a href="https://www.blaisetransit.com/" target="_blank">
                                     Blaise Transit
                                 </a>
                             </div>
@@ -104,7 +104,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.appdirect.com/">
+                                <a href="https://www.appdirect.com/" target="_blank">
                                     AppDirect
                                 </a>
                             </div>
@@ -124,7 +124,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.sap.com/">
+                                <a href="https://www.sap.com/" target="_blank">
                                     SAP
                                 </a>
                             </div>
@@ -144,7 +144,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.mcgill.ca/">
+                                <a href="https://www.mcgill.ca/" target="_blank">
                                     McGill University
                                 </a>
                             </div>
@@ -177,7 +177,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.concordia.ca">
+                                <a href="https://www.concordia.ca" target="_blank">
                                     Concordia University
                                 </a>
                             </div>
@@ -197,7 +197,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.coursera.org/specializations/deep-learning">
+                                <a href="https://www.coursera.org/specializations/deep-learning" target="_blank">
                                     Coursera - Deep Learning Specialization
                                 </a>
                             </div>
@@ -217,7 +217,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.coursera.org/learn/machine-learning">
+                                <a href="https://www.coursera.org/learn/machine-learning" target="_blank">
                                     Coursera - Machine Learning
                                 </a>
                             </div>
@@ -248,7 +248,7 @@ layout: default_naked
                         <img src="./assets/images/sharedmic.png" class="project-image-horizontal" />
                     </div>
                     <div class="section-item-description">
-                        <h3 class="font-bold project-title"><a href="http://sharedmic.com/">SharedMic</a></h3>
+                        <h3 class="font-bold project-title"><a href="http://sharedmic.com/" target="_blank">SharedMic</a></h3>
                         <p class="section-item-description--description">
                             A social platform where podcast listeners can share, discover and discuss podcasts with other listeners and creators.
                         </p>
@@ -270,7 +270,7 @@ layout: default_naked
                         <img src="./assets/images/conumaps2.png" class="section-item-image--vertical_instance" />
                     </div>
                     <div class="section-item-description">
-                        <h3 class="font-bold project-title"><a href="https://github.com/Concordia-Campus-Guide/Concordia-Campus-Guide">ConUMaps</a></h3>
+                        <h3 class="font-bold project-title"><a href="https://github.com/Concordia-Campus-Guide/Concordia-Campus-Guide" target="_blank">ConUMaps</a></h3>
                         <p class="section-item-description--description">
                             A campus guide for Concordia University, equipped with indoor-outdoor directions, calendar integration and student points of interest.
                         </p>
@@ -290,7 +290,7 @@ layout: default_naked
                         <img src="./assets/images/vision2.1.png" class="section-item-image--vertical_instance" />
                     </div>
                     <div class="section-item-description">
-                        <h3 class="font-bold project-title"><a href="https://github.com/muskanaul/Vision">Vision - A virtual walking-cane</a></h3>
+                        <h3 class="font-bold project-title"><a href="https://github.com/muskanaul/Vision" target="_blank">Vision - A virtual walking-cane</a></h3>
                         <p class="section-item-description--description">
                                 A mobile app that acts as a virtual walking stick. By using single image depth estimation AI, we make the phone vibrate according to the depth, thereby giving blind people a way to ‘feel’ their surroundings. 
                         </p>
@@ -311,7 +311,7 @@ layout: default_naked
                         <img src="./assets/images/conuhacks2.png" class="section-item-image--vertical_instance" />
                     </div>
                     <div class="section-item-description">
-                        <h3 class="font-bold project-title"><a href="https://github.com/Jacobian8/ConUHacks-2019">Smart IoT Refrigerator</a></h3>
+                        <h3 class="font-bold project-title"><a href="https://github.com/Jacobian8/ConUHacks-2019" target="_blank">Smart IoT Refrigerator</a></h3>
                         <p class="section-item-description--description">
                             An IoT device that uses AI to determine which items are in the refrigerator, and recommend recipes based on which items will perish the soonest. 
                         </p>
@@ -331,7 +331,7 @@ layout: default_naked
                         <img src="./assets/images/bonjourhi.png"  class="project-image-horizontal" />
                     </div>
                     <div class="section-item-description">
-                        <h3 class="font-bold project-title"><a href="https://github.com/ZacharyBys/bonjour-hi">Bonjour-Hi</a></h3>
+                        <h3 class="font-bold project-title"><a href="https://github.com/ZacharyBys/bonjour-hi" target="_blank">Bonjour-Hi</a></h3>
                         <p class="section-item-description--description">
                             A multilingual video chat room platform, allowing you to video chat with people from all around the world, without having to speak their language!
                         </p>
@@ -347,7 +347,7 @@ layout: default_naked
                     </div>
                 </div>
                 <div class="link-to-github">
-                    <a href="http://github.com/thomasgauvin">More projects on my GitHub!</a>
+                    <a href="http://github.com/thomasgauvin" target="_blank">More projects on my GitHub!</a>
                 </div>
             </div>
         </div>
@@ -367,7 +367,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="http://gces.ecaconcordia.ca/">
+                                <a href="http://gces.ecaconcordia.ca/" target="_blank">
                                     Gina Cody Entrepreneurship Society
                                 </a>
                             </div>
@@ -387,7 +387,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="http://conuhacks.io/">
+                                <a href="http://conuhacks.io/" target="_blank">
                                     HackConcordia
                                 </a>
                             </div>
@@ -407,7 +407,7 @@ layout: default_naked
                         </div>
                         <div class="section-item-experience-description">
                             <div class="experience-title">
-                                <a href="https://www.concordia.ca/ginacody/computer-science-software-eng.html">
+                                <a href="https://www.concordia.ca/ginacody/computer-science-software-eng.html" target="_blank">
                                     Computer Science and Software Engineering Department of Concordia University
                                 </a>
                             </div>
