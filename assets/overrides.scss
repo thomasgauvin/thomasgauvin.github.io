@@ -29,6 +29,8 @@ h1 {
 .site-header {
     padding: 0 1em;
     height: 3em;
+    z-index: 1;
+    position: relative;
 }
 
 .header-wrapper {
