@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Deploy"
+date:   2020-07-03 17:35:45 -0400
+categories: startups
+---
+##### *Don't be afraid of negative feedback. True failure is not getting the feedback, which is necessary to learn.*
+
+I'm entering my fourth year of university. Over the past 3 years, I learned many skills to build my dream apps. I also built many cool projects.
+
+However, once I had built these projects, I would display them on my shelf (my Github). This was a mistake.
+
+I'm realizing that I should have been deploying my projects as early as possible so that I can get feedback from my friends and improve my project. While this is may be a scary thing to do, it is also how you learn.
+
+Tomorrow, I'll be deploying my first project.
+
+(Check it out here: [http://www.sharedmic.com/](http://www.sharedmic.com/) )
+

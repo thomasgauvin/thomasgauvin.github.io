@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Say 'No' to more opportunities"
+date:   2020-07-03 17:35:45 -0400
+categories: startups 
+---
+##### *Everyday, we are met with countless opportunities to learn, improve ourselves, and reach better outcomes. How do we focus on the important ones?*
+
+I'm constantly coming up with new ideas. 
+
+> "Oh, a blogging platform for journalling!" 
+
+> "A ridesharing app!" 
+
+> "A todo list but with a specific different feature!" 
+
+> "This new course just came out, looks great!"
+
+However, when we constantly have new ideas, we never get the chance to finish our current projects. They sit, unfinished, unloved, and lost.
+
+What you end up with is a bunch of half-finished projects, that aren't really notable to show off. Moreover, all the learning that you get from publishing a project is uncaptured.
+
+That's why it's important to really **ask yourself if the project you're starting is something that you see yourself working on in a month, or a year**. 
+
+# Recently, I wanted to build a better blogging platform. 
+
+I wanted to start a blog, but Wordpress, Medium and Ghost seemed too complicated. However, as you could imagine, the marginal value add, the value that I would be adding to bloggers by developing this platform, is minimal at best. Moreover, this would take a decent amount of effort to develop, and even more than anticipated as a fully developed platform would probably include many unexpected features that would be necessary.
+
+A few days later, I found imprint.to 😛
+
+# Ask yourself: Is this the best use of my time and energy?
+
+There are plenty of good opportunities out there, but make sure to ask yourself if this is the best opportunity available to you right now. Will it result in the best outcome? The most learning? The most potential users? No? Then say 'no' to that opportunity.
