@@ -448,7 +448,7 @@ layout: default_naked
                                     {% endif %}
                                 {% endfor %}
                                 <div class="link-to-blog">
-                                    <a href="/blog">More blog posts</a>
+                                    <a href="/blog">More blog posts!</a>
                                 </div>
                             </ul>
                         </div>
