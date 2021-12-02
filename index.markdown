@@ -48,7 +48,7 @@ layout: default_naked
 </div>
 <main>
     <section class="max-width-1200px">
-        <div class="quote-box margin-on-sides">
+        <div class="quote-box">
             <div>
                 <h2 class="font-bold">
                     The web and A.I. are the gateway to future transformation.
@@ -61,7 +61,7 @@ layout: default_naked
             </div>
         </div>
     </section>
-    <section class="max-width-1200px">
+    <!-- <section class="max-width-1200px">
         <div class="two-column margin-on-sides">
             <div class="section-title" id="projects-section">
                 <div class="section-title-box-decoration">
@@ -162,7 +162,7 @@ layout: default_naked
             </div>
         </div>
     </section>
-        <section class="max-width-1200px">
+    <section class="max-width-1200px">
         <div class="two-column margin-on-sides">
             <div class="section-title" id="projects-section">
                 <div class="section-title-box-decoration">
@@ -234,9 +234,41 @@ layout: default_naked
                 </div>
             </div>
         </div>
+    </section> -->
+    <section>
+        <div class=" max-width-1200px two-column">
+            <div class="section-title" id="projects-section">
+                <div class="section-title-box-decoration">
+                    <h2 class="font-bold">Blog</h2>
+                </div>
+            </div>
+            <div class="section-items-container">
+                <div class="section-item section-item-with-border">
+                    <div class="section-item-experience">
+                        <div class="section-item-experience-description">
+                            <ul>
+                                {% for post in site.posts %}
+                                    {% if forloop.index <= 3 %}
+                                    <li style="padding: 1em 0">
+                                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                                        {{ post.excerpt }}
+                                        <strong>{{ post.date | date: "%m-%d-%Y"}}</strong>
+                                    </li>
+                                    {% endif %}
+                                {% endfor %}
+                                <div class="link-to-blog">
+                                    <a href="/blog">More blog posts!</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="max-width-1200px">
-        <div class="two-column margin-on-sides">
+    <section>
+        <div id="relief-2-container"><img id="relief-2-img" src="assets/svg/mountain_relief.png" width="100px"></div>
+        <div class="max-width-1200px two-column">
             <div class="section-title" id="projects-section">
                 <div class="section-title-box-decoration">
                     <h2 class="font-bold">Projects</h2>
@@ -263,7 +295,6 @@ layout: default_naked
                         </div>
                     </div>
                 </div>
-                <div id="relief-2-container"><img id="relief-2-img" src="assets/svg/mountain_relief.png" width="100px"></div>
                 <div class="section-item">
                     <div class="section-item-image section-item-image--vertical">
                         <img src="./assets/images/conumaps.png" class="section-item-image--vertical_instance" />
@@ -352,7 +383,7 @@ layout: default_naked
             </div>
         </div>
     </section>
-    <section class="max-width-1200px">
+    <!-- <section class="max-width-1200px">
         <div class="two-column margin-on-sides">
             <div class="section-title" id="projects-section">
                 <div class="section-title-box-decoration">
@@ -424,41 +455,10 @@ layout: default_naked
                 </div>
             </div>
         </div>
-    </section>
-    <section class="max-width-1200px">
+    </section> -->
+    <section>
         <div id="relief-3-container"><img id="relief-3-img" src="assets/svg/mountain_relief.png" width="100px"></div>
-        <div class="two-column margin-on-sides">
-            <div class="section-title" id="projects-section">
-                <div class="section-title-box-decoration">
-                    <h2 class="font-bold">Blog</h2>
-                </div>
-            </div>
-            <div class="section-items-container">
-                <div class="section-item section-item-with-border">
-                    <div class="section-item-experience">
-                        <div class="section-item-experience-description">
-                            <ul>
-                                {% for post in site.posts %}
-                                    {% if forloop.index <= 3 %}
-                                    <li style="padding: 1em 0">
-                                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                                        {{ post.excerpt }}
-                                        <strong>{{ post.date | date: "%m-%d-%Y"}}</strong>
-                                    </li>
-                                    {% endif %}
-                                {% endfor %}
-                                <div class="link-to-blog">
-                                    <a href="/blog">More blog posts!</a>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-        <section class="max-width-1200px">
-        <div class="two-column margin-on-sides">
+        <div class="max-width-1200px two-column">
             <div class="section-title" id="projects-section">
                 <div class="section-title-box-decoration">
                     <h2 class="font-bold">Inspiration</h2>
