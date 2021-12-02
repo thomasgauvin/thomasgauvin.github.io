@@ -250,7 +250,7 @@ layout: default_naked
                                 {% for post in site.posts %}
                                     {% if forloop.index <= 3 %}
                                     <li style="padding: 1em 0">
-                                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                                        <h2><a href="https://blog.thomasgauvin.com/{{ post.url | split: '/' | last }}">{{ post.title }}</a></h2>
                                         {{ post.excerpt }}
                                         <strong>{{ post.date | date: "%m-%d-%Y"}}</strong>
                                     </li>
