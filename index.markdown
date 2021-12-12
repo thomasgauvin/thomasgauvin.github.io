@@ -236,37 +236,6 @@ layout: default_naked
         </div>
     </section> -->
     <section>
-        <div class=" max-width-1200px two-column">
-            <div class="section-title" id="projects-section">
-                <div class="section-title-box-decoration">
-                    <h2 class="font-bold">Blog</h2>
-                </div>
-            </div>
-            <div class="section-items-container">
-                <div class="section-item section-item-with-border">
-                    <div class="section-item-experience">
-                        <div class="section-item-experience-description">
-                            <ul>
-                                {% for post in site.posts %}
-                                    {% if forloop.index <= 3 %}
-                                    <li style="padding: 1em 0">
-                                        <h2><a href="https://blog.thomasgauvin.com/{{ post.url | split: '/' | last }}">{{ post.title }}</a></h2>
-                                        {{ post.excerpt }}
-                                        <strong>{{ post.date | date: "%m-%d-%Y"}}</strong>
-                                    </li>
-                                    {% endif %}
-                                {% endfor %}
-                                <div class="link-to-blog">
-                                    <a href="/blog">More blog posts!</a>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
         <div id="relief-2-container"><img id="relief-2-img" src="assets/svg/mountain_relief.png" width="100px"></div>
         <div class="max-width-1200px two-column">
             <div class="section-title" id="projects-section">
@@ -383,6 +352,37 @@ layout: default_naked
             </div>
         </div>
     </section>
+    <section>
+        <div class=" max-width-1200px two-column">
+            <div class="section-title" id="projects-section">
+                <div class="section-title-box-decoration">
+                    <h2 class="font-bold">Blog</h2>
+                </div>
+            </div>
+            <div class="section-items-container">
+                <div class="section-item section-item-with-border">
+                    <div class="section-item-experience">
+                        <div class="section-item-experience-description">
+                            <ul>
+                                {% for post in site.posts %}
+                                    {% if forloop.index <= 3 %}
+                                    <li style="padding: 1em 0">
+                                        <h3><a href="https://blog.thomasgauvin.com/{{ post.url | split: '/' | last }}">{{ post.title }}</a></h3>
+                                        {{ post.excerpt }}
+                                        <strong>{{ post.date | date: "%m-%d-%Y"}}</strong>
+                                    </li>
+                                    {% endif %}
+                                {% endfor %}
+                                <div class="link-to-blog">
+                                    <a href="/blog">More blog posts!</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- <section class="max-width-1200px">
         <div class="two-column margin-on-sides">
             <div class="section-title" id="projects-section">
@@ -468,11 +468,11 @@ layout: default_naked
                 <div class="section-item section-item-with-border">
                     <div class="leadership-section-item-experience">
                         <div class="section-item-experience-description">
-                            <div class="experience-title">
+                            <h3>
                                 <a href="https://ecorner.stanford.edu/videos/education-reimagined-entire-talk/">
                                     Education Reimagined [Entire Talk]
                                 </a>
-                            </div>
+                            </h3>
                             <div class="leadership-position-date">
                                 <div class="experience-position">
                                     Having used Khan Academy throughout my academic path, I've been amazed by what Sal Khan has been able to build, from a small tutoring hobby to a global vision of free world-class education for everyone.
@@ -482,11 +482,11 @@ layout: default_naked
                     </div>
                     <div class="leadership-section-item-experience">
                         <div class="section-item-experience-description">
-                            <div class="experience-title">
+                            <h3>
                                 <a href="https://en.wikipedia.org/wiki/Shoe_Dog">
                                     Shoe Dog
                                 </a>
-                            </div>
+                            </h3>
                             <div class="leadership-position-date">
                                 <div class="experience-position">
                                     I read this book within a few days. I was glued to it. An inspiring journey, where Phil Knight went from accountant to starting a small shoe company. You may have heard of it, it's called Nike.
