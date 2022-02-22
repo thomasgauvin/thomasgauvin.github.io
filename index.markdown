@@ -249,7 +249,7 @@ layout: default_naked
                         <img src="./assets/images/sharedmic.png" class="project-image-horizontal" />
                     </div>
                     <div class="section-item-description">
-                        <h3 class="font-bold project-title"><a href="http://sharedmic.com/" target="_blank">SharedMic</a></h3>
+                        <h3 class="font-bold project-title"><a target="_blank">SharedMic</a></h3>
                         <p class="section-item-description--description">
                             A social platform where podcast listeners can share, discover and discuss podcasts with other listeners and creators.
                         </p>
